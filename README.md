@@ -18,10 +18,12 @@ The project demonstrates skills in:
 
 ## Tools & Technologies
 
-Power BI  
-Data Modeling (Star Schema)  
-DAX Measures  
-Business Intelligence Reporting  
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-FFB000?style=for-the-badge)
+![Data Modeling](https://img.shields.io/badge/Data%20Modeling-4CAF50?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-1E88E5?style=for-the-badge)
+![Data Visualization](https://img.shields.io/badge/Data%20Visualization-8E24AA?style=for-the-badge)
+![Analytics](https://img.shields.io/badge/Analytics-FF7043?style=for-the-badge)  
 
 ---
 
