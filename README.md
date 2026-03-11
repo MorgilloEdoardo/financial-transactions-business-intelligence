@@ -1,85 +1,184 @@
 # Financial Transactions Business Intelligence Dashboard
 
-Interactive **Business Intelligence dashboard** built with Power BI to analyze financial transactions, customer behavior, product performance and account activity.
+## Project Overview
 
-The dashboard transforms raw transactional data into clear insights that support data-driven decision making.
+This project presents an end-to-end Business Intelligence analysis of financial transaction data using Power BI.
+
+The goal of the project is to transform raw transactional data into actionable insights that support business decision-making. The dashboard analyzes financial performance, customer behavior, account activity, and product performance through an interactive and structured reporting environment.
+
+The project demonstrates skills in:
+
+• Data modeling  
+• KPI definition  
+• Data visualization  
+• Business analysis  
+• Dashboard design
 
 ---
 
-# Tools Used
+## Tools & Technologies
 
 Power BI  
-Data Modeling  
-DAX  
-Data Visualization  
+Data Modeling (Star Schema)  
+DAX Measures  
+Business Intelligence Reporting  
 
 ---
 
-# Dashboard Structure
+## Dashboard Structure
 
-## Executive Overview
-
-Provides a high-level view of overall financial performance including balance, income, expenses and transaction activity.
-
-<p align="center">
+### Executive Overview
 <img src="images/01_Executive_Overview.png" width="900">
-</p>
+
+Provides a high-level summary of the financial performance of the organization.
+
+Key metrics include:
+
+• Total Balance  
+• Total Income  
+• Total Expenses  
+• Total Transactions  
+
+The page highlights trends over time and provides an overview of transaction distribution by category.
 
 ---
 
-## Transaction Analysis
-
-Detailed analysis of transaction performance and trends.
-
-<p align="center">
+### Transaction Analysis
 <img src="images/02_Transaction_Analysis.png" width="900">
-</p>
+
+This page focuses on the analysis of transaction activity.
+
+Key insights include:
+
+• Transaction volume trends  
+• Success rate of transactions  
+• Average transaction value  
+• Distribution of transactions by type and channel  
+
+This section helps identify transaction behavior patterns across time and channels.
 
 ---
 
-## Customer Analysis
-
-Focuses on customer engagement and transaction behavior.
-
-<p align="center">
+### Customer Analysis
 <img src="images/03_Customer_Analysis.png" width="900">
-</p>
+
+The customer analysis page focuses on understanding customer behavior and value.
+
+Main metrics include:
+
+• Total customers  
+• Transactions per customer  
+• Average customer value  
+
+The dashboard also highlights:
+
+• Customer activity trends over time  
+• Top customers by transaction volume  
+• Customer value distribution
+
+This section supports customer segmentation and value analysis.
 
 ---
 
-## Product Performance
-
-Analyzes product level performance and transaction trends.
-
-<p align="center">
+### Product Performance
 <img src="images/04_Product_Performance.png" width="900">
-</p>
+
+This page analyzes the performance of financial products.
+
+The analysis focuses on:
+
+• Product transaction volume  
+• Total product value  
+• Average product value  
+
+A scatter analysis allows the identification of high-performing products by comparing transaction volume and total value.
 
 ---
 
-## Account Overview
-
-Provides insights into account activity and distribution.
-
-<p align="center">
+### Account Overview
 <img src="images/05_Account_Overview.png" width="900">
-</p>
+
+The account overview provides insights into account performance and distribution.
+
+Key metrics include:
+
+• Total accounts  
+• Newly opened accounts  
+• Average account balance  
+• Total balance value  
+
+The page also analyzes:
+
+• Balance distribution across accounts  
+• Transactions per account type  
+• Account status distribution
 
 ---
 
-# Key Insights
+## Data Model
 
-- Monitoring financial performance trends through balance, income and expense metrics  
-- Identifying customer transaction patterns and high-value clients  
-- Evaluating product performance based on value and transaction volume  
-- Understanding account distribution and activity levels  
+The dashboard is built using a **Star Schema data model**, which improves performance and analytical flexibility.
+
+Tables used in the model:
+
+FactTransaction  
+DimCustomer  
+DimAccount  
+DimProduct  
+DimProductCategory  
+DimProductSubCategory  
+Calendar
+
+This structure enables efficient filtering, aggregation, and multi-dimensional analysis.
 
 ---
 
-# Author
+## Key Metrics
+
+The dashboard tracks several key performance indicators, including:
+
+Total Balance  
+Total Income  
+Total Expenses  
+Total Transactions  
+Success Rate  
+Average Transaction Value  
+Customer Value  
+Product Performance  
+
+These KPIs provide a comprehensive overview of financial and operational performance.
+
+---
+
+## Business Questions
+
+The dashboard helps answer important business questions such as:
+
+• How are income and expenses evolving over time?  
+• Which customers generate the highest transaction value?  
+• Which products drive the largest transaction volumes?  
+• How are transactions distributed across channels?  
+• How are accounts distributed by type and balance?
+
+---
+
+## Dashboard File
+
+The Power BI dashboard file is included in the repository:
+
+financial_dashboard.pbix
+
+You can open the file using **Microsoft Power BI Desktop** to explore the interactive report.
+
+---
+
+## Author
 
 Edoardo Morgillo  
-Data Analyst  
+Data Analyst
 
 LinkedIn  
 https://www.linkedin.com/in/edoardo-morgillo
+
+GitHub  
+https://github.com/MorgilloEdoardo
